@@ -124,9 +124,39 @@ Create .vscode/launch.json
 }
 ```
 
+Create .editorconfig
+```
+# EditorConfig is awesome: http://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 2
+charset = utf-8
+trim_trailing_whitespace = true
+
+
+[*.gradle]
+indent_size = 4
+```
+
+Create .gitignore
+```
+node_modules
+.idea
+```
+
+
 ## Run
 > For dev: `npm run dev`
+>
 > For pro: `npm start`
+>
 > Test: `npm test`
 
 
